@@ -1,0 +1,277 @@
+{
+  "summary": {
+    "tickets_requested": 10,
+    "successful_predictions": 10,
+    "failed_predictions": 0,
+    "structured_output_success_pct": 100.0,
+    "category_accuracy_pct": 90.0,
+    "queue_accuracy_pct": 70.0,
+    "ticket_type_accuracy_pct": 80.0,
+    "priority_accuracy_pct": 90.0,
+    "all_fields_correct_pct": 50.0,
+    "average_confidence": 0.948,
+    "average_latency_seconds": 1.344
+  },
+  "results": [
+    {
+      "id": "1",
+      "subject": "Support Billing Problem",
+      "expected": {
+        "category": "bug",
+        "queue": "Billing and Payments",
+        "ticket_type": "Incident",
+        "priority": "high"
+      },
+      "predicted": {
+        "category": "bug",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent"
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": false,
+        "all_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.609,
+      "error": null
+    },
+    {
+      "id": "2",
+      "subject": "Data Analytics Solutions",
+      "expected": {
+        "category": "billing",
+        "queue": "Billing and Payments",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "predicted": {
+        "category": "billing",
+        "queue": "Billing and Payments",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "all_fields": true
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.305,
+      "error": null
+    },
+    {
+      "id": "3",
+      "subject": "Concern about Dashboard Load Speed",
+      "expected": {
+        "category": "performance",
+        "queue": "Product Support",
+        "ticket_type": "Problem",
+        "priority": "medium"
+      },
+      "predicted": {
+        "category": "performance",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "medium"
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": false,
+        "priority": true,
+        "all_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.448,
+      "error": null
+    },
+    {
+      "id": "4",
+      "subject": "Hospital Data Security Incident Report",
+      "expected": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent"
+      },
+      "predicted": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent"
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "all_fields": true
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.134,
+      "error": null
+    },
+    {
+      "id": "5",
+      "subject": "Problem with Sluggish Data Processing",
+      "expected": {
+        "category": "performance",
+        "queue": "Product Support",
+        "ticket_type": "Problem",
+        "priority": "medium"
+      },
+      "predicted": {
+        "category": "performance",
+        "queue": "Technical Support",
+        "ticket_type": "Problem",
+        "priority": "medium"
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": true,
+        "all_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.253,
+      "error": null
+    },
+    {
+      "id": "6",
+      "subject": "Revise Digital Marketing Approach",
+      "expected": {
+        "category": "feature_request",
+        "queue": "Product Support",
+        "ticket_type": "Change",
+        "priority": "low"
+      },
+      "predicted": {
+        "category": "feature_request",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": false,
+        "priority": true,
+        "all_fields": false
+      },
+      "confidence": 0.9,
+      "latency_seconds": 1.55,
+      "error": null
+    },
+    {
+      "id": "7",
+      "subject": "Digital Strategies for Brand Amplification",
+      "expected": {
+        "category": "how_to",
+        "queue": "General Inquiry",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "predicted": {
+        "category": "other",
+        "queue": "General Inquiry",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "correct": {
+        "category": false,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "all_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.449,
+      "error": null
+    },
+    {
+      "id": "8",
+      "subject": "Secure Medical Data in Hospital Setting using Microsoft Dynamics 365",
+      "expected": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "all_fields": true
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.247,
+      "error": null
+    },
+    {
+      "id": "9",
+      "subject": "Unapproved Data Access Incidents",
+      "expected": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent"
+      },
+      "predicted": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent"
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "all_fields": true
+      },
+      "confidence": 0.98,
+      "latency_seconds": 1.243,
+      "error": null
+    },
+    {
+      "id": "10",
+      "subject": "Support Required for Scikit-learn Integration",
+      "expected": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low"
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "all_fields": true
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.205,
+      "error": null
+    }
+  ]
+}

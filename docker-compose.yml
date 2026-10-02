@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      CHROMA_DIR: /app/.chroma
+      CHECKPOINT_DB: /app/.state/checkpoints.sqlite
+    volumes:
+      - triage_chroma:/app/.chroma
+      - triage_state:/app/.state
+
+volumes:
+  triage_chroma:
+  triage_state:

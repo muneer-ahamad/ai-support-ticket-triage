@@ -1,0 +1,598 @@
+{
+  "summary": {
+    "tickets_requested": 20,
+    "successful_predictions": 20,
+    "failed_predictions": 0,
+    "structured_output_success_pct": 100.0,
+    "category_accuracy_pct": 90.0,
+    "queue_accuracy_pct": 40.0,
+    "ticket_type_accuracy_pct": 80.0,
+    "priority_accuracy_pct": 75.0,
+    "review_trigger_accuracy_pct": 95.0,
+    "all_four_fields_correct_pct": 30.0,
+    "average_confidence": 0.9175,
+    "average_latency_seconds": 1.462
+  },
+  "results": [
+    {
+      "id": "1",
+      "subject": "Internet Disconnection Occurred During Today's Meeting",
+      "expected": {
+        "category": "performance",
+        "queue": "performance",
+        "ticket_type": "Incident",
+        "priority": "medium",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "performance",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "medium",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.85,
+      "latency_seconds": 1.779,
+      "error": null
+    },
+    {
+      "id": "2",
+      "subject": "Guidance on Securing Medical Data with PyTorch Techniques",
+      "expected": {
+        "category": "how_to",
+        "queue": "Technical Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.509,
+      "error": null
+    },
+    {
+      "id": "3",
+      "subject": "Concern about Security of Medical Information",
+      "expected": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Request",
+        "priority": "medium",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Request",
+        "priority": "urgent",
+        "requires_review": true
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": false,
+        "review": false,
+        "all_four_fields": false
+      },
+      "confidence": 0.85,
+      "latency_seconds": 1.449,
+      "error": null
+    },
+    {
+      "id": "4",
+      "subject": "Enhancing Data Analytics Investment Strategies with Ruby on Rails",
+      "expected": {
+        "category": "how_to",
+        "queue": "Technical Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.548,
+      "error": null
+    },
+    {
+      "id": "5",
+      "subject": "Problem Related to Security Breach",
+      "expected": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent",
+        "requires_review": true
+      },
+      "predicted": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent",
+        "requires_review": true
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": true
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.652,
+      "error": null
+    },
+    {
+      "id": "6",
+      "subject": "Seeking Marketing Assistance",
+      "expected": {
+        "category": "how_to",
+        "queue": "General Inquiry",
+        "ticket_type": "Problem",
+        "priority": "medium",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": false,
+        "priority": false,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.554,
+      "error": null
+    },
+    {
+      "id": "7",
+      "subject": "Problem Report for SaaS Platform",
+      "expected": {
+        "category": "performance",
+        "queue": "Service Outages and Maintenance",
+        "ticket_type": "Incident",
+        "priority": "high",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "performance",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "high",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.9,
+      "latency_seconds": 1.452,
+      "error": null
+    },
+    {
+      "id": "8",
+      "subject": "Crash Problem with IBM SPSS Statistics 28",
+      "expected": {
+        "category": "bug",
+        "queue": "Product Support",
+        "ticket_type": "Problem",
+        "priority": "high",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "bug",
+        "queue": "Technical Support",
+        "ticket_type": "Problem",
+        "priority": "high",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.243,
+      "error": null
+    },
+    {
+      "id": "9",
+      "subject": "Request to Enhance Server Capacity",
+      "expected": {
+        "category": "performance",
+        "queue": "IT Support",
+        "ticket_type": "Change",
+        "priority": "high",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "feature_request",
+        "queue": "Product Support",
+        "ticket_type": "Change",
+        "priority": "low",
+        "requires_review": false
+      },
+      "correct": {
+        "category": false,
+        "queue": false,
+        "ticket_type": true,
+        "priority": false,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.85,
+      "latency_seconds": 1.758,
+      "error": null
+    },
+    {
+      "id": "10",
+      "subject": "Issues with Server Performance",
+      "expected": {
+        "category": "performance",
+        "queue": "Service Outages and Maintenance",
+        "ticket_type": "Problem",
+        "priority": "high",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "performance",
+        "queue": "Product Support",
+        "ticket_type": "Problem",
+        "priority": "high",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.551,
+      "error": null
+    },
+    {
+      "id": "11",
+      "subject": "Concerns About Marketing Strategies",
+      "expected": {
+        "category": "how_to",
+        "queue": "General Inquiry",
+        "ticket_type": "Problem",
+        "priority": "medium",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": false,
+        "priority": false,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.448,
+      "error": null
+    },
+    {
+      "id": "12",
+      "subject": "Concerns About Session Timeouts",
+      "expected": {
+        "category": "performance",
+        "queue": "Product Support",
+        "ticket_type": "Problem",
+        "priority": "high",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "performance",
+        "queue": "Product Support",
+        "ticket_type": "Problem",
+        "priority": "high",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": true
+      },
+      "confidence": 0.9,
+      "latency_seconds": 1.551,
+      "error": null
+    },
+    {
+      "id": "13",
+      "subject": "Security Concern Regarding Healthcare Data",
+      "expected": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent",
+        "requires_review": true
+      },
+      "predicted": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent",
+        "requires_review": true
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": true
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.449,
+      "error": null
+    },
+    {
+      "id": "14",
+      "subject": "Improved Security for Medical Information",
+      "expected": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Request",
+        "priority": "medium",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "correct": {
+        "category": false,
+        "queue": false,
+        "ticket_type": true,
+        "priority": false,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.85,
+      "latency_seconds": 1.079,
+      "error": null
+    },
+    {
+      "id": "15",
+      "subject": "Exploring Integrations with Investment Analytics Tools",
+      "expected": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": true
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.472,
+      "error": null
+    },
+    {
+      "id": "16",
+      "subject": "Unapproved Entry Incident: Medical Data Compromised",
+      "expected": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent",
+        "requires_review": true
+      },
+      "predicted": {
+        "category": "security",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "urgent",
+        "requires_review": true
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": true
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.281,
+      "error": null
+    },
+    {
+      "id": "17",
+      "subject": "Project Management SaaS Performance Degradation Concern",
+      "expected": {
+        "category": "performance",
+        "queue": "Product Support",
+        "ticket_type": "Problem",
+        "priority": "medium",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "performance",
+        "queue": "Product Support",
+        "ticket_type": "Incident",
+        "priority": "medium",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": false,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.35,
+      "error": null
+    },
+    {
+      "id": "18",
+      "subject": "Recommendations for Safeguarding Medical Information",
+      "expected": {
+        "category": "how_to",
+        "queue": "Technical Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "how_to",
+        "queue": "Product Support",
+        "ticket_type": "Request",
+        "priority": "low",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.9,
+      "latency_seconds": 1.339,
+      "error": null
+    },
+    {
+      "id": "19",
+      "subject": "Significant Service Interruption Impacting Digital Marketing Plans",
+      "expected": {
+        "category": "performance",
+        "queue": "Service Outages and Maintenance",
+        "ticket_type": "Incident",
+        "priority": "high",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "performance",
+        "queue": "Service Outages and Maintenance",
+        "ticket_type": "Incident",
+        "priority": "high",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": true,
+        "ticket_type": true,
+        "priority": true,
+        "review": true,
+        "all_four_fields": true
+      },
+      "confidence": 0.85,
+      "latency_seconds": 1.499,
+      "error": null
+    },
+    {
+      "id": "20",
+      "subject": "Troubleshooting Software Glitches After Update",
+      "expected": {
+        "category": "bug",
+        "queue": "IT Support",
+        "ticket_type": "Problem",
+        "priority": "high",
+        "requires_review": false
+      },
+      "predicted": {
+        "category": "bug",
+        "queue": "Technical Support",
+        "ticket_type": "Incident",
+        "priority": "high",
+        "requires_review": false
+      },
+      "correct": {
+        "category": true,
+        "queue": false,
+        "ticket_type": false,
+        "priority": true,
+        "review": true,
+        "all_four_fields": false
+      },
+      "confidence": 0.95,
+      "latency_seconds": 1.28,
+      "error": null
+    }
+  ]
+}
