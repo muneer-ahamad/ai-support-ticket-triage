@@ -13,6 +13,9 @@ A portfolio-grade Python AI engineering project that classifies support tickets,
 - **Evaluation:** classification accuracy, priority accuracy, and retrieval hit@3 on a labeled synthetic dataset.
 - **Observability:** optional Langfuse v4 tracing.
 - **Shipping:** FastAPI, Streamlit, Docker, tests, and GitHub Actions CI.
+<img width="1865" height="885" alt="Screenshot 2026-10-01 235724" src="https://github.com/user-attachments/assets/8a53f8e5-5c17-4f57-8dbf-84953b148d65" />
+<img width="1355" height="673" alt="Screenshot 2026-10-01 235731" src="https://github.com/user-attachments/assets/ae0da2a1-dacd-4a1b-b6e4-0041db50c08c" />
+<img width="1507" height="893" alt="Screenshot 2026-10-02 000304" src="https://github.com/user-attachments/assets/48fd8a08-c6db-4b48-bdd5-a8bb42ea0bac" />
 
 ## Architecture
 
