@@ -4,6 +4,8 @@ A portfolio-grade Python AI engineering project that classifies support tickets,
 
 **Stack:** Gemini 3.8 Flash · Gemini Embeddings · LangGraph · Pydantic · Chroma · FastAPI · Streamlit · Langfuse · Docker
 
+**Live Demo Link:** https://ai-support-ticket-triage-muneer.streamlit.app
+
 ## What this project demonstrates
 
 - **LLM orchestration:** LangGraph state machine with real branching and retry loops.
